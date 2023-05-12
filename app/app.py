@@ -1,4 +1,5 @@
 import streamlit as st
+import catboost
 from catboost import CatBoostClassifier, Pool
 import pandas as pd
 import nltk

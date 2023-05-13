@@ -10,7 +10,7 @@ from subs_preprocess import sub_processing
 model = CatBoostClassifier()
 features = ['Subtitles']
 def load():
-    with open('sub_model.pcl', 'rb') as mod:
+    with open('app/sub_model.pcl', 'rb') as mod:
         return pickle.load(mod)
 model = load()
 

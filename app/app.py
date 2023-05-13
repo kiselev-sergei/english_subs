@@ -51,7 +51,7 @@ if upload_file:
     if df is None:
         st.write('Problem with the subs file. Try another one')
     else:
-        st.header(f'This film is labeled **:[{make_predict(df, model)}]** on CEFR classification')
+        st.header(f'This film is labeled **:[{make_predict(df[features], model)}]** on CEFR classification')
 st.markdown('')
 st.markdown('')
 st.markdown('')

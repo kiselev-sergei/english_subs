@@ -12,7 +12,7 @@ from nltk.corpus import stopwords
 import pickle
 
 def load():
-    with open('./sub_pipe.pcl', "rb") as f:
+    with open('sub_pipe.pcl', "rb") as f:
         return pickle.load(f)
 pipe = load()
 
